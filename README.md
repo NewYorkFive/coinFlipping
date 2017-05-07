@@ -11,3 +11,4 @@ how to use
 	    flipView.center = self.view.center;
 	}
 	
+![image](https://github.com/NewYorkFive/coinFlipping/blob/master/coinFlipping.gif)
