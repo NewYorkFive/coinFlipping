@@ -1,6 +1,6 @@
 # coinFlipping
 
-how to use
+##how to use
 	
 	- (void)viewDidLoad {
 	    [super viewDidLoad];
@@ -11,4 +11,6 @@ how to use
 	    flipView.center = self.view.center;
 	}
 	
+	
+##Effect
 ![image](https://github.com/NewYorkFive/coinFlipping/blob/master/coinFlipping.gif)
