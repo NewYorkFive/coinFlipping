@@ -13,4 +13,5 @@
 	
 	
 ##Effect
+
 ![image](https://github.com/NewYorkFive/coinFlipping/blob/master/coinFlipping.gif)
