@@ -1,6 +1,6 @@
 # coinFlipping
 
-##how to use
+## How to use
 	
 	- (void)viewDidLoad {
 	    [super viewDidLoad];
@@ -12,6 +12,6 @@
 	}
 	
 	
-##Effect
+## Effect
 
 ![image](https://github.com/NewYorkFive/coinFlipping/blob/master/coinFlipping.gif)
