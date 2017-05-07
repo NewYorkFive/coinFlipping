@@ -30,7 +30,6 @@
  */
 @property (nonatomic, strong) UIImage *secondImage;
 
-
 /**
  定时器
  */
@@ -84,6 +83,7 @@
 
 }
 
+//保证子控件大小和本身view一致
 - (void)layoutSubviews{
     [super layoutSubviews];
     self.imageView.frame = self.bounds;
@@ -127,6 +127,7 @@
 - (void)flip{
     _isFlip = true;
     self.timer = [NSTimer scheduledTimerWithTimeInterval:self.timeInterval target:self selector:@selector(viewFlip) userInfo:nil repeats:true];
+    self.resultNumber = arc4random_uniform(123456);
 }
 
 - (void)viewFlip{
@@ -150,10 +151,10 @@
     [self.timer setFireDate:[NSDate distantFuture]];
     [self.timer invalidate];
     self.timer = nil;
-    self.resultNumber = arc4random_uniform(123456);
     [self.imageView setImage:self.resultNumber % 2 ? self.firstImage : self.secondImage];
     _isFlip = false;
 }
+
 
 
 /**
